@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(236, 140, 76, 0.418);
+    background-color: rgba(245, 243, 242, 0.418);
     font-family: "Noto Serif TC", sans-serif;
 }
     
@@ -25,7 +25,7 @@ p.redred{
     font-size: 30px;
 }
 .expedu_icon{
-    color: #021b2c;
+    color: #f10790;
 }
 
 .expedu_icon:hover{
