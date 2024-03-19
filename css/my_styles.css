@@ -24,3 +24,12 @@ p.redred{
     color: #196805d8;
     font-size: 30px;
 }
+.expedu_icon{
+    color: #021b2c;
+}
+
+.expedu_icon:hover{
+    background-color: rgb(226, 157, 8);
+    color: #eef4f8;
+
+}
