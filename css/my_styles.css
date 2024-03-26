@@ -3,6 +3,10 @@
     line-height: 1.5em;
     
 }
+.bg-primary{
+    background-color: #f1a707 !important;
+    background-image:url(../assets/img/14.jpg);
+}
 
 body{
     background-color: rgba(245, 243, 242, 0.418);
