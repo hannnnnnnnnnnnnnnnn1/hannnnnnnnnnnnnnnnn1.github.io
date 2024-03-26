@@ -6,6 +6,8 @@
 .bg-primary{
     background-color: #f1a707 !important;
     background-image:url(../assets/img/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
