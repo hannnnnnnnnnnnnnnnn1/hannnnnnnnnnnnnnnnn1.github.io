@@ -15,6 +15,28 @@ ol.lisalist{
     background-size: cover;
 }
 
+#redred{
+    padding: 20px;
+    border: 10px solid royalblue;
+    border-radius:5px;
+    margin: 0px 0px 100px 50%;
+    background-color: #e9a411;
+    color: cadetblue;
+    
+    font-size: 40px;
+    text-align: 40px;
+    text-align: center;
+    font-family: 'Noto Serif TC',sans-serif;
+    letter-spacing: 0.8px;
+    line-height:1.5em;
+   
+}
+
+.lisa80{
+    width: 80%;
+    margin: 0px auto;
+}
+
 body{
     background-color: rgba(245, 243, 242, 0.418);
     font-family: "Noto Serif TC", sans-serif;
@@ -57,7 +79,7 @@ table.lisatable{
 table.lisatable th{
     text-align: center;
     color:rebeccapurple
-    background-color:#100577 ；
+    background-color:darkgoldenrod ；
     border: 5px solid rgb(226, 157, 8)
 
 
@@ -74,9 +96,5 @@ table.lisatable tr:nth-child(even){
 
 table.lisatable tr:nth-child(odd){
     background-color: #100577;
-}
-
-.table-80{
-    width: 100px;
 }
 
