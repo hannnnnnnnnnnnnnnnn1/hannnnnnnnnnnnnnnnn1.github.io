@@ -36,7 +36,6 @@ p.redred{
 
 .blueblue{
     color: #196805d8;
-    font-size: 30px;
 }
 .expedu_icon{
     color: #e9a411;
@@ -49,18 +48,24 @@ p.redred{
 }
 
 table.lisatable{
-    width: 100px;
-    background-color: #e9a411;
     text-align: center;
+    color: #e9a411;
+    width: 100px;
+    
+    
 }
 table.lisatable th{
-    width: 100px;
-    background-color: #bb1127ce;
+    text-align: center;
+    color:rebeccapurple
+    background-color:#100577 ；
+    border: 5px solid rgb(226, 157, 8)
+
 
 }
 
 table.lisatable td{
     text-align: center;
+    border: 5px solid  rosybrown
 }
 
 table.lisatable tr:nth-child(even){
@@ -69,5 +74,9 @@ table.lisatable tr:nth-child(even){
 
 table.lisatable tr:nth-child(odd){
     background-color: #100577;
+}
+
+.table-80{
+    width: 100px;
 }
 
