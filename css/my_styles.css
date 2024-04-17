@@ -98,3 +98,6 @@ table.lisatable tr:nth-child(odd){
     background-color: #100577;
 }
 
+ol>li:hover {
+    background-color: #deb43d;
+    }
