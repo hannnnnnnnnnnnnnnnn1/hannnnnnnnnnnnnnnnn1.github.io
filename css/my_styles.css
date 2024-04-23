@@ -78,8 +78,8 @@ table.lisatable{
 }
 table.lisatable th{
     text-align: center;
-    color:rebeccapurple
-    background-color:darkgoldenrod ；
+    color:rebeccapurple;
+    background-color:darkgoldenrod;
     border: 5px solid rgb(226, 157, 8)
 
 
@@ -101,3 +101,15 @@ table.lisatable tr:nth-child(odd){
 ol>li:hover {
     background-color: #deb43d;
     }
+
+
+.overflowtest{
+    background-color: #131212;
+    color:white;
+    padding:10px 20px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 30px auto;
+    height:150px;
+    overflow: scroll;
+}
