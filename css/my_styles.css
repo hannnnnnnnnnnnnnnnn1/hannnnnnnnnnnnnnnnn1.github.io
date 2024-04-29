@@ -1,115 +1,115 @@
-
-ol.lisalist{
-    list-style-type: upper-alpha;
+.notransform{
+    text-transform: none !important; 
 }
 
-*{
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    
+.lisacenter{
+    text-align: center;
 }
+
+.lisacolor{
+    color: #1087c3 !important;
+}
+
+.whitecolor{
+    color: white !important;
+}
+
+.greycolor{
+    color: rgb(201, 239, 255) !important;
+}
+
+.lisah4{
+    color: #2A3D48;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+/* 背景 */
+
 .bg-primary{
-    background-color: #f1a707 !important;
-    background-image:url(../assets/img/14.jpg);
+    background-image: url(../assets/img/26.jpg);
+}
+
+.herobg{
+    background: linear-gradient(to left, #306D8C, #4C86A8);
+    color: white;
+    background-image: url(../assets/img/14.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
-#redred{
-    padding: 20px;
-    border: 10px solid royalblue;
-    border-radius:5px;
-    margin: 0px 0px 100px 50%;
-    background-color: #e9a411;
-    color: cadetblue;
-    
-    font-size: 40px;
-    text-align: 40px;
-    text-align: center;
-    font-family: 'Noto Serif TC',sans-serif;
-    letter-spacing: 0.8px;
-    line-height:1.5em;
-   
+.lisaimg{
+    background-color: #74C0FC !important;
 }
 
-.lisa80{
+.lisaspeech{
+    padding: 30px 40px;
+    background-color: #121f2e70;
+    border-radius: 30px;
     width: 80%;
     margin: 0px auto;
 }
 
-body{
-    background-color: rgba(245, 243, 242, 0.418);
-    font-family: "Noto Serif TC", sans-serif;
-}
-    
-h1,h2,h3,h4,h5,h6{
-    font-family: "Noto Serif TC", sans-serif;
-}
 
-p.redred{
-    color: #100577;
-    font-size: 40px;
-    text-align: center;
-    background-color: #f1a707;
-    border:10px solid red;
-    
 
-}
+/* 連結樣式 */
 
-.blueblue{
-    color: #196805d8;
-}
-.expedu_icon{
-    color: #e9a411;
+.expedu_icon {
+    color: #428FDE;
+    border-radius: 15px;
+    padding: 0px 10px;
 }
 
 .expedu_icon:hover{
-    background-color: rgb(226, 157, 8);
-    color: #eef4f8;
-
-}
-
-table.lisatable{
-    text-align: center;
-    color: #e9a411;
-    width: 100px;
-    
-    
-}
-table.lisatable th{
-    text-align: center;
-    color:rebeccapurple;
-    background-color:darkgoldenrod;
-    border: 5px solid rgb(226, 157, 8)
-
-
-}
-
-table.lisatable td{
-    text-align: center;
-    border: 5px solid  rosybrown
-}
-
-table.lisatable tr:nth-child(even){
-    background-color: #f1a707;
-}
-
-table.lisatable tr:nth-child(odd){
-    background-color: #100577;
-}
-
-ol>li:hover {
-    background-color: #deb43d;
-    }
-
-
-.overflowtest{
-    background-color: #131212;
-    color:white;
-    padding:10px 20px;
+    background-color: #428FDE;
+    color: white;
     border-radius: 15px;
-    width: 50%;
-    margin: 30px auto;
-    height:150px;
-    overflow: scroll;
+    padding: 0px 10px;
+}
+
+.herodown{
+    font-size: 40px;
+    color: white;
+}
+
+.herodown:hover{
+    font-size: 40px;
+    color: grey;
+}
+
+.ctabtn{
+    background-color: white;
+    color: #1776ad;
+    border-radius: 50px !important; 
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 5px solid;
+    border-color: #1776ad;
+    text-decoration: none;
+}
+
+.ctabtn:hover{
+    background-color: #1776ad;
+    color: white;
+    border-radius: 50px !important; 
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 5px solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+/* 字體設定 */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 ,body {
+    font-family:'Noto Sans TC', sans-serif;
+}
+
+.serif{
+    font-family:'Noto Serif TC', sans-serif;
 }
