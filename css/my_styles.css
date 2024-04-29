@@ -28,6 +28,10 @@
     
 }
 
+.herodown{
+    align-content: center;
+}
+
 
 .bg-primary{
     background-image: url(../assets/img/26.jpg);
@@ -49,11 +53,12 @@
 
 .lisaspeech{
     padding: 30px 40px;
-    background-color: #39688571;
+    background-color: #59a5df52;
     border-radius: 30px;
     width: 80%;
     margin: 0px auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .expedu_icon {
@@ -63,17 +68,17 @@
 }
 
 .expedu_icon:hover{
-    background-color: #15191d;
+    background-color: #59a5df52;
     color: white;
     border-radius: 15px;
     padding: 0px 10px;
-    text-align: center;
+
 }
 
 .herodown{
     font-size: 40px;
-    color: rgb(0, 0, 0);
-    
+    color: #0a1825;
+
 }
 
 .herodown:hover{
