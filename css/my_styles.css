@@ -7,36 +7,34 @@
 }
 
 .lisacolor{
-    color: #1087c3 !important;
+    color: #2d2f30 !important;
 }
 
-.whitecolor{
-    color: white !important;
+.color2{
+    color: rgb(30, 34, 36) !important;
+    text-align: center;
 }
 
 .greycolor{
-    color: rgb(201, 239, 255) !important;
+    color: rgb(127, 138, 146) !important;
+    text-align: center;
 }
 
 .lisah4{
-    color: #2A3D48;
+    color: #414852;
     font-weight: bold;
     font-size: larger;
     padding-bottom: 5px;
+    
 }
 
-
-
-
-
-/* 背景 */
 
 .bg-primary{
     background-image: url(../assets/img/26.jpg);
 }
 
 .herobg{
-    background: linear-gradient(to left, #306D8C, #4C86A8);
+    background: linear-gradient(to left, #091114, #060e13);
     color: white;
     background-image: url(../assets/img/14.jpg);
     background-repeat: no-repeat;
@@ -45,57 +43,59 @@
 }
 
 .lisaimg{
-    background-color: #74C0FC !important;
+    background-color: #eff3f5 !important;
+    
 }
 
 .lisaspeech{
     padding: 30px 40px;
-    background-color: #121f2e70;
+    background-color: #39688571;
     border-radius: 30px;
     width: 80%;
     margin: 0px auto;
+    text-align: center;
 }
 
-
-
-/* 連結樣式 */
-
 .expedu_icon {
-    color: #428FDE;
+    color: #0a1825;
     border-radius: 15px;
     padding: 0px 10px;
 }
 
 .expedu_icon:hover{
-    background-color: #428FDE;
+    background-color: #15191d;
     color: white;
     border-radius: 15px;
     padding: 0px 10px;
+    text-align: center;
 }
 
 .herodown{
     font-size: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
+    
 }
 
 .herodown:hover{
     font-size: 40px;
     color: grey;
+  
 }
 
 .ctabtn{
-    background-color: white;
-    color: #1776ad;
+    background-color: rgb(31, 23, 26);
+    color: #fff7f7;
     border-radius: 50px !important; 
     font-size: 20px;
     padding: 10px 30px;
     border: 5px solid;
-    border-color: #1776ad;
+    border-color: #777c96;
     text-decoration: none;
+
 }
 
 .ctabtn:hover{
-    background-color: #1776ad;
+    background-color: #000000;
     color: white;
     border-radius: 50px !important; 
     font-size: 20px;
@@ -103,9 +103,10 @@
     border: 5px solid;
     border-color: white;
     text-decoration: none;
+ 
 }
 
-/* 字體設定 */
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 ,body {
     font-family:'Noto Sans TC', sans-serif;
 }
