@@ -29,7 +29,10 @@
 }
 
 .herodown{
+    font-size: 40px;
+    color: #0a1825;
     align-content: center;
+
 }
 
 
@@ -53,7 +56,7 @@
 
 .lisaspeech{
     padding: 30px 40px;
-    background-color: #59a5df52;
+    background-color: #70757a23;
     border-radius: 30px;
     width: 80%;
     margin: 0px auto;
@@ -75,11 +78,7 @@
 
 }
 
-.herodown{
-    font-size: 40px;
-    color: #0a1825;
 
-}
 
 .herodown:hover{
     font-size: 40px;
@@ -96,6 +95,7 @@
     border: 5px solid;
     border-color: #777c96;
     text-decoration: none;
+    text-align: center;
 
 }
 
