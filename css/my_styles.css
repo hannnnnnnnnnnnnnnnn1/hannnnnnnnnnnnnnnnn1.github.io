@@ -78,6 +78,11 @@
 
 }
 
+.social-icon{
+    color: #0a1825;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
 
 
 .herodown:hover{
