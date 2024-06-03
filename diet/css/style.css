@@ -1631,3 +1631,37 @@ h1, h2, h3, h4, h5,
     .contact-section .section-title .heading {
       font-size: 20px; } }
 
+
+
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      h1, h2 {
+        color: #333;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      .section p {
+        line-height: 1.6;
+        text-align: left;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      th {
+        background-color: #f4f4f4;
+      }
